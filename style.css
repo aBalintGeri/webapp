@@ -75,6 +75,18 @@
     z-index: -1;
     animation: animateLoad 0.5s linear infinite;
   }
+  .viewer{
+      position: fixed;
+      border-radius: 10%;
+      height: 65%;
+      top: 3%;
+      width: 75%;
+      left: 12%;
+      background: black;
+      box-shadow: 15px 30px 45px black;
+  }
+
+  
   
   @keyframes animateLoad {
     0% {
