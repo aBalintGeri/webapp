@@ -70,13 +70,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-image: linear-gradient(
-      -225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%
-    );
-  
+    background-image: linear-gradient(-225deg,#045E33 0%,#04575E 50%,#033954 100%);
     filter: blur(20px);
     z-index: -1;
     animation: animateLoad 0.5s linear infinite;
