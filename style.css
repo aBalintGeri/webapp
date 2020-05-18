@@ -98,22 +98,23 @@
     
 }
 
-/* jobb oldalt help infó készül
-.help {
+/* jobb oldalt help infó
+előre kell hozni a szöveget vhogy */
+.help, .htoggle {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.7);
+  }
+  .help {
     width: 380px;
-    height: 200px;
+    height: 100px;
     left: 100%;
-    border-radius: 0 0 0 30px;
-    width: 60px;
-    height: 60px;
-    left: -60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50% 0 0 50%;
-  } */
-
-  
+  }
+  /*hover mozgás*/
+  .htoggle:hover, .help:hover {
+    left: calc(100% - 380px);
+  }
   
   @keyframes animateLoad {
     0% {
