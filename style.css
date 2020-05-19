@@ -105,6 +105,7 @@ előre kell hozni a szöveget vhogy */
     background: rgba(0, 0, 0, 0.7);
     cursor: pointer;
     box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.7);
+    z-index: 1;
   }
   .help {
     width: 380px;
