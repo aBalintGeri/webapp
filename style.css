@@ -121,6 +121,12 @@
     align-items: center;
     border-radius: 50% 0 0 50%;
   }
+  .fa-question-circle {
+    fill: #014739;
+    width: 40px;
+    height: 40px;
+  }  
+
   /*hover mozgás*/
   .htoggle:hover, .help:hover {
     left: calc(100% - 380px);
