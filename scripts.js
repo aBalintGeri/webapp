@@ -10,6 +10,27 @@
   });
 
 
+  var currentIndex = 1;
+
   function slides(index) {
-      alert("működöm " + index)
+      // alert("működöm " + index);
+      currentIndex += index;
+      showSlide(currentIndex);
+  }
+
+  function showSlide(index) {
+      var slides = $('.imgClass');
+
+      for (var i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+
+      if (index < 1) {
+          index = 1
+      } else if (index > slides.length) {
+          index = slides.length;
+      }
+
+      currentIndex = index;
+      slides[index - 1].style.display = "block";
   }
