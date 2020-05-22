@@ -136,7 +136,11 @@
   
   .hinfo li {
       font-size: 0.8em;
-      line-height: 3em;
+      line-height: 2em;
+  }
+  
+  .hinfo {
+      margin: 20px 40px 20px;
   }
   
   .htoggle:hover,
