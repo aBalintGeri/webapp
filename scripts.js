@@ -8,3 +8,8 @@
       // betöltő képernyő eltüntetése
       $(".loaderPage").hide();
   });
+
+
+  function slides(index) {
+      alert("működöm " + index)
+  }
