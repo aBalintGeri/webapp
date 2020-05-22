@@ -172,11 +172,22 @@
   }
 
   .prevButton {
-    width: 100%;
-    height: 20px;
-    text-align: center;
+    font-size: xx-large;
   }
 
   .nextButton {
-    margin: auto;
+    font-size: xx-large;
+  }
+
+  .wrappert {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+
+  .wrapper {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
   }
