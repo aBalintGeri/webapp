@@ -150,7 +150,6 @@
   .prevContainer {
       height: 100%;
       width: 10%;
-      background-color: green;
       display: block;
       float: left;
       text-align: center;
@@ -159,7 +158,6 @@
   .imgContainer {
       height: 100%;
       width: 80%;
-      background-color: blue;
       display: block;
       float: left;
   }
