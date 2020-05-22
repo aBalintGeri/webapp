@@ -160,6 +160,7 @@
       width: 80%;
       display: block;
       float: left;
+      overflow: hidden;
   }
   
   .nextContainer {
@@ -167,6 +168,16 @@
       width: 10%;
       display: block;
       float: left;
+  }
+  
+  .nextImg {
+      width: calc(100% - 20px);
+      height: calc(100% - 20px);
+  }
+  
+  img {
+      max-width: 100%;
+      max-height: 100%;
   }
   
   .prevButton {
