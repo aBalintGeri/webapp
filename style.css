@@ -144,3 +144,39 @@
       transform: rotate(360deg);
     }
   }
+
+  .prevContainer {
+    height: 100%;
+    width: 10%;
+    background-color: green;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  
+
+  .imgContainer {
+    height: 100%;
+    width: 80%;
+    background-color: blue;
+    display: block;
+    float: left;
+  }
+
+  .nextContainer {
+    height: 100%;
+    width: 10%;
+    background-color: red;
+    display: block;
+    float: left;
+  }
+
+  .prevButton {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+  }
+
+  .nextButton {
+    margin: auto;
+  }
