@@ -11,14 +11,16 @@
 
 
   var currentIndex = 1;
+  var lastIndex = 1;
 
   function slides(index) {
-      // alert("működöm " + index);
+      lastIndex = currentIndex;
       currentIndex += index;
       showSlide(currentIndex);
   }
 
   function selectSlide(index) {
+      lastIndex = currentIndex;
       currentIndex = index;
       showSlide(index);
   }
@@ -37,5 +39,7 @@
       }
 
       currentIndex = index;
+      $(`#thumbImg${lastIndex}`).removeClass("thumbActive");
+      $(`#thumbImg${currentIndex}`).addClass("thumbActive");
       slides[index - 1].style.display = "block";
   }
