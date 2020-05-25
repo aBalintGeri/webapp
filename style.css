@@ -76,7 +76,7 @@
   .thumbs {
       position: fixed;
       border-radius: 10%;
-      height: 65%;
+      height: 75%;
       top: 3%;
       width: 75%;
       left: 12%;
@@ -89,9 +89,26 @@
   }
   
   .thumbs {
-      height: 22%;
-      top: 73%;
+      height: 12%;
+      top: 83%;
       display: flex;
+  }
+  
+  .thumbsContainer {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      height: 100%;
+      display: flex;
+      transition: all 100ms linear;
+      transform-origin: center top;
+      transform-style: preserve-3d;
+      transform: translateZ(0);
+  }
+  
+  .thumbsImg {
+      display: block;
   }
   /* jobb oldalt help infó*/
   
