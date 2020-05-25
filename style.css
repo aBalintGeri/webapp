@@ -108,7 +108,14 @@
   }
   
   .thumbsImg {
-      display: block;
+      display: flex;
+      height: 100%;
+  }
+  
+  .thumbsImg:hover {
+      height: 106%;
+      margin-top: -3px;
+      cursor: pointer;
   }
   /* jobb oldalt help infó*/
   
