@@ -18,6 +18,11 @@
       showSlide(currentIndex);
   }
 
+  function selectSlide(index) {
+      currentIndex = index;
+      showSlide(index);
+  }
+
   function showSlide(index) {
       var slides = $('.imgClass');
 
